@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="c:\Users\Admin\Desktop\project\css\styles.css">
+</head>
+<body>
+
+    <button id="theme-toggle" class="theme-toggle">Тёмная тема</button>
+
+    <header>
+        <h1>Уход за волосами в разные сезоны</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О сайте / FAQ</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Связаться с автором</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Имя:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="topic">Тема:</label><br>
+                    <select id="topic" name="topic">
+                        <option value="question">Вопрос</option>
+                        <option value="error">Ошибка на сайте</option>
+                        <option value="suggestion">Предложение</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Сообщение:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Очистить</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Шваб В.А., 2026</p>
+    </footer>
+
+    <script src="c:\Users\Admin\Desktop\project\css\js\script.js"></script>
+</body>
+</html>
